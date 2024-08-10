@@ -16,27 +16,7 @@ class HomeWork extends StatelessWidget {
           title: const Text('Homework Flutter Layout'),
           backgroundColor: Colors.blue,
         ),
-        body: const DesignOne(),
-      ),
-    );
-  }
-}
-
-class Body extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      width: double.infinity,
-      height: double.infinity,
-      child: Container(
-        height: 150,
-        width: 150,
-        decoration: BoxDecoration(
-            color: Colors.amber,
-            border: Border.all(
-                width: 3,
-                style: BorderStyle.solid,
-                strokeAlign: BorderSide.strokeAlignOutside)),
+        body: const DesignOne(), // DesignTwo //DesignThree  // DesignFour
       ),
     );
   }
