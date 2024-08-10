@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_batch_11_day1/screen/homework_one.dart';
+import 'package:flutter_batch_11_day1/screen/homework_two.dart';
+import 'package:flutter_batch_11_day1/screen/homework_three.dart';
+import 'package:flutter_batch_11_day1/screen/homework_four.dart';
 
 void main() {
   runApp(const HomeWork());
